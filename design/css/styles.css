@@ -1,0 +1,84 @@
+body{
+  margin: 0;
+  display: inline-block;
+background-color: hsl(30, 38%, 92%)
+}
+h1{
+  font-size: 2.9rem;
+  font-weight: 700;
+  font-family: 'Fraunces', serif;
+  color: hsl(212, 21%, 14%)
+}
+h2{
+  font-weight: 500;
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 2;
+
+}
+h3{
+  letter-spacing: 8px;
+  color: hsl(228, 12%, 48%);
+}
+h6{
+  color: hsl(228, 12%, 48%);
+  display: inline-block;
+  padding: 25px 25px;
+  position: relative;
+  bottom: 10px;
+margin-bottom: 0;
+text-decoration: line-through;
+font-size: 0.8rem;
+}
+p{
+  font-family: 'Montserrat', sans-serif;
+  color: hsl(228, 12%, 48%);
+  font-size: 14px;
+  font-weight:500;
+  line-height: 2;
+  text-align:inherit;
+  letter-spacing: 2px;
+  margin-bottom: 0;
+}
+.box{
+  margin: 100px ;
+}
+
+.perfume-image{
+  border-top-left-radius:  5% ;
+  border-bottom-left-radius: 5% ;
+  width: 400px;
+  height: 600px;
+}
+
+.right-side{
+  background-color: white;
+  border-style: none;
+  border-top-right-radius: 5%;
+  border-bottom-right-radius: 5%;
+  display:inline-block;
+  width: 350px;
+  height:  500px;
+  padding: 50px;
+  position:absolute;
+
+}
+.amt{
+  color: hsl(228, 12%, 48%);
+  font-size: 2.5rem;
+  font-weight: 700;
+  font-family: 'Fraunces', serif;
+  display: inline;
+}
+.btn{
+  background-color:  hsl(158, 36%, 37%);
+  color: white;
+  font-size: 16px;
+  width: 300px;
+  height: 50px;
+  padding: auto;
+  border-radius: 12px;
+  font-weight: bolder;
+  font-family:sans-serif;
+  letter-spacing: 2px;
+
+}
